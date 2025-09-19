@@ -171,7 +171,9 @@ If the same `"url"` is requested again, it will use the cached version in KV ins
 
 ## 6. Test
 
-Run `npx wrangler dev` to test your Worker locally. You can also use [remote bindings](/workers/development-testing/#remote-bindings) to test against a remote browser.
+Run `npx wrangler dev` to test your Worker locally.
+
+To interact with a real headless browser during local development, set `"remote" : true` in the Browser binding configuration. You can learn more in our [remote bindings documentation](/workers/development-testing/#remote-bindings).
 
 To test taking your first screenshot, go to the following URL:
 
